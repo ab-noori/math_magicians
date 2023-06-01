@@ -21,13 +21,12 @@
 
 -->
 
-> # Template
+> # Math_Magicians
 
 | Desktop Veiw Representation|
 |---------------------------------------|
-|<div align="center"><img src="./project-image.png" alt="screenshot" width="auto" height="auto"/></div>|
-|<div align="center"><img src="./project-image.png" alt="screenshot" width="auto" height="auto"/></div>|
-|<div align="center"><img src="./project-image.png" alt="screenshot" width="auto" height="auto"/></div>|
+|<div align="center"><img src="./project-image-desk.PNG" alt="screenshot" width="auto" height="auto"/></div>|
+|<div align="center"><img src="./project-image-mob.PNG" alt="screenshot" width="323" height="681"/></div>|
 
 <!-- TABLE OF CONTENTS -->
 
@@ -55,9 +54,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Template] <a name="about-project"></a>
+# 📖 [Math_Magicians] <a name="about-project"></a>
 
-> **[Temaplate]** is a project template with ready README file and and created files for liters configurations. 
+> **[Math_Magicians]** is a website for mathematics fans. It is a Single Page App (SPA) created using React.JS library, that allows users to make simple calculations and read a random math-related quote. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -83,7 +82,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> - [Live Demo on Gh-pages](https://ab-noori.github.io/math-magicians/)
+> - [Live Demo on Gh-pages](https://ab-noori.github.io/math_magicians/)
 > - [Live Demo on Render](https://math-magicians-ab.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -108,14 +107,13 @@ Clone this repository to your desired folder:
 - Use the following Commands:
 
       cd your-desired-folder
-      git clone git@github.com:ab-noori/template.git
+      git clone git@github.com:ab-noori/math_magicians.git
 
 
 ### Install
 - Install this project with:
 
-       npx create-react-app my-app
-       cd my-app
+       npm react-app .
        npm start
 
 
@@ -166,7 +164,7 @@ Clone this repository to your desired folder:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](#).
+Feel free to check the [issues page](https://github.com/ab-noori/math_magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
