@@ -7,7 +7,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Starting point of 'Math_Magicians' project.
+          Starting point of
+          {' '}
+          <strong>Math_Magicians</strong>
+          {' '}
+          project.
         </p>
         <a
           className="App-link"
