@@ -136,20 +136,20 @@ Clone this repository to your desired folder:
 
 
 ### Deployment
-- 1. install `'gh-pages'` with following command:
+- 1- install `'gh-pages'` with following command:
 
       npm i -D gh-pages
 
-- 2. Add `'homepage'` to project's jason file:
+- 2- Add `'homepage'` to project's jason file:
 
       "homepage": "https://ab-noori.github.oi/math_magicians",
 
-- 3. Add the following scripts to project's jason file:
+- 3- Add the following scripts to project's jason file:
 
       "predeploy": "npm run build",
       "deploy": "gh-pages -d build "
 
-- 4. Finally run the following command:
+- 4- Finally run the following command:
 
       npm run deploy
 
