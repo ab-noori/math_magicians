@@ -1,6 +1,6 @@
 import './App.scss';
-import Quote from './components/Quote';
-import Calculator from './components/Calculator';
+import Quote from './components/pages/Quote';
+import Calculator from './components/pages/Calculator';
 
 function App() {
   return (

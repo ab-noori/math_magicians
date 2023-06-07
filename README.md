@@ -25,9 +25,9 @@
 
 | Desktop Veiw Representation|
 |---------------------------------------|
-|<div align="center"><img src="./project-image-desk.PNG" alt="screenshot" width="1081" height="auto"/></div>|
-|<div align="center"><img src="./project-image-desk2.PNG" alt="screenshot" width="960" height="auto"/></div>|
-|<div align="center"><img src="./project-image-mob.PNG" alt="screenshot" width="667" height="auto"/></div>|
+|<div align="center"><img src="./src/assets/project-image-desk.PNG" alt="screenshot" width="1081" height="auto"/></div>|
+|<div align="center"><img src="./src/assets/project-image-desk2.PNG" alt="screenshot" width="960" height="auto"/></div>|
+|<div align="center"><img src="./src/assets/project-image-mob.PNG" alt="screenshot" width="667" height="auto"/></div>|
 
 <!-- TABLE OF CONTENTS -->
 
