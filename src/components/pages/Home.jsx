@@ -1,4 +1,4 @@
-import algorithm from '../assets/algorithm.gif';
+import algorithm from '../../assets/algorithm.gif';
 
 function Home() {
   return (
