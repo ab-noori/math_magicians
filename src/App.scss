@@ -1,38 +1,142 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
-.app {
+body {
+  background-color: #eee1ed;
+}
+
+#root {
+  position: relative;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 9vh;
+  position: fixed;
+  background-color: #f5913e;
+}
+
+header {
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+}
+
+nav,
+main,
+.copyright {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+main {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  & ul li a {
+    text-decoration: none;
+    font-size: large;
+  }
+
+  & .branding a {
+    text-decoration: none;
+    color: black;
+  }
+
+  & .branding a h1 {
+    white-space: nowrap;
+  }
+
+  & ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+.home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: visible;
+}
+
+.intro-frame {
+  width: 90vw;
+  height: 80vh;
+  margin-top: 50vh;
+  font-size: 1.3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 20px;
-  margin: 10vh auto;
+
+  & .listItem {
+    color: #f36f04;
+  }
 }
 
-.quote-container {
-  font-family: 'Satisfy', cursive;
-  font-size: 1.2rem;
+.algo-frame {
   width: 90vw;
   height: 80vh;
   display: flex;
-  background-color: #858694;
-  border: 2px solid #616060;
+  justify-content: center;
+  align-items: center;
+}
+
+.algo-frame img {
+  width: 100%;
+}
+
+.copyright {
+  white-space: nowrap;
+}
+
+.quote-container {
+  margin-top: 8vh;
+  width: 100%;
+  height: 94%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./assets/quote-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   border-radius: 10px;
+  font-size: 1.4rem;
+  font-family: 'Satisfy', cursive;
 }
 
 .quote {
   width: calc(100% - 40px);
-  color: white;
-  padding: 10px 20px;
+  color: #722727;
+  height: 35vh !important;
   display: flex;
   flex-direction: column;
-  background-color: #9ec339;
   border-radius: 10px;
   margin: 5%;
   gap: 10px;
@@ -42,13 +146,34 @@
   justify-self: center;
 }
 
-.quote h1 {
-  margin: 0;
-  text-transform: capitalize;
-}
-
 .quote small {
   align-self: flex-end;
+}
+
+.cal-frame {
+  width: 100%;
+  margin: 15vh auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  gap: 10px;
+}
+
+.teacher-frame img {
+  height: 70vh;
+}
+
+.lets-math {
+  position: absolute;
+  top: 15vh;
+  left: calc(50% - 210px);
+  padding: 25px;
+  border: 1px solid green;
+  font-size: 1.4rem;
+  font-family: 'Satisfy', cursive;
+  border-radius: 70% 30% 70% 0;
+  transform: rotate(-15deg);
 }
 
 .calculator {
@@ -79,7 +204,7 @@
   font-size: 1.4rem;
   color: white;
   background-color: #9ec339;
-  box-shadow: 1px 1px 1px rgba(182, 27, 27, 0.15);
+  box-shadow: 1px 1px 1px #b61b1b26;
   border-radius: 5px;
   border: none;
 }
@@ -103,12 +228,50 @@
   padding: 2%;
 }
 
-@media screen and (min-width: 1000px) {
-  .app {
-    display: flex;
+.teacher-frame {
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .quote,
+  .calculator {
+    width: 60vw;
+    height: 60vh;
+    margin: 10vh auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .quote {
+    width: 40vw;
+    height: 60vh;
+    margin: 10vh auto;
+  }
+
+  .calculator {
+    width: 40vw;
+    height: 60vh;
+  }
+
+  .algo-frame {
+    width: 40vw;
+  }
+
+  .intro-frame {
+    width: 60vw;
+    margin-top: unset;
+  }
+
+  .home {
     flex-direction: row;
-    justify-content: center;
-    gap: 20px;
+    gap: 8%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .quote {
+    width: 30vw;
+    height: 60vh;
     margin: 10vh auto;
   }
 
@@ -117,8 +280,15 @@
     height: 60vh;
   }
 
-  .quote-container {
-    width: 30vw;
-    height: 60vh;
+  .algo-frame {
+    width: 40vw;
+  }
+
+  .intro-frame {
+    width: 60vw;
+  }
+
+  .home {
+    flex-direction: row;
   }
 }
