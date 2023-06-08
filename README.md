@@ -9,15 +9,17 @@
 
 <!-- Open pull request using the following structure
 
-  ## Project title: subtitle
+## Pronject Title: Branch title.............
 
-  ### 🌟Branch features:
+### 🌟Features:
 
-  - i
-  - ii
-  - iii
+> - [ ] - [`i`]() ...........
+> - [ ] - [`ii`]() ...................
+> - [ ] - [`iii`]() ...................
+> - [ ] - [`iiii`]() ...................
+> - [ ] - [`iiiii`]() ...................
 
-  ### [ 🚀 Branch Demo](https://ab-noori.github.io/Project-Template/)
+### [ 🚀 Project Demo](#)
 
 -->
 
