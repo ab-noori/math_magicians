@@ -42,7 +42,6 @@ const Quote = () => {
           <div>Loading...</div>
         ) : (
           <>
-            <h2>{data.category}</h2>
             <p>{data.quote}</p>
             <small>
               <i>{`--${data.author}`}</i>
