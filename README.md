@@ -9,15 +9,17 @@
 
 <!-- Open pull request using the following structure
 
-  ## Project title: subtitle
+## Pronject Title: Branch title.............
 
-  ### 🌟Branch features:
+### 🌟Features:
 
-  - i
-  - ii
-  - iii
+> - [ ] - [`i`]() ...........
+> - [ ] - [`ii`]() ...................
+> - [ ] - [`iii`]() ...................
+> - [ ] - [`iiii`]() ...................
+> - [ ] - [`iiiii`]() ...................
 
-  ### [ 🚀 Branch Demo](https://ab-noori.github.io/Project-Template/)
+### [ 🚀 Project Demo](#)
 
 -->
 
@@ -25,9 +27,10 @@
 
 | Desktop Veiw Representation|
 |---------------------------------------|
-|<div align="center"><img src="./project-image-desk.PNG" alt="screenshot" width="1081" height="auto"/></div>|
-|<div align="center"><img src="./project-image-desk2.PNG" alt="screenshot" width="960" height="auto"/></div>|
-|<div align="center"><img src="./project-image-mob.PNG" alt="screenshot" width="667" height="auto"/></div>|
+|<div align="center"><img src="./src/assets/project-image-desk.PNG" alt="screenshot" width="auto" height="auto"/></div>|
+|<div align="center"><img src="./src/assets/project-image-desk2.PNG" alt="screenshot" width="auto" height="auto"/></div>|
+|<div align="center"><img src="./src/assets/project-image-desk3.PNG" alt="screenshot" width="auto" height="auto"/></div>|
+|<div align="center"><img src="./src/assets/project-image-mob.PNG" alt="screenshot" width="667" height="auto"/></div>|
 
 <!-- TABLE OF CONTENTS -->
 
@@ -84,7 +87,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > - [Live Demo on Gh-pages](https://ab-noori.github.io/math_magicians/)
-> - [Live Demo on Render](https://math-magicians-ab.onrender.com)
+> - [Live Demo on Render](https://math-magicians-fans.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
